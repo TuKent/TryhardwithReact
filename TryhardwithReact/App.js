@@ -14,7 +14,7 @@ class App extends Component {
 
     return (
       <NavigationContainer>
-        <Stack.Navigator  initialRouteName="Welcome">
+        <Stack.Navigator initialRouteName="Welcome">
           <Stack.Screen
             style={{ "alignItems": 'center' }}
             name="Welcome"
@@ -33,6 +33,34 @@ class App extends Component {
             style={{ "alignItems": 'center' }}
             name="Intro"
             component={Intro}
+            options={{
+              headerStyle: {
+                backgroundColor: '#E60509',
+              },
+              headerTintColor: '#fff',
+              headerTitleStyle: {
+                fontWeight: 'bold',
+              },
+            }} />
+
+          <Stack.Screen
+            style={{ "alignItems": 'center' }}
+            name="Intro2"
+            component={Intro2}
+            options={{
+              headerStyle: {
+                backgroundColor: '#E60509',
+              },
+              headerTintColor: '#fff',
+              headerTitleStyle: {
+                fontWeight: 'bold',
+              },
+            }} />
+
+<Stack.Screen
+            style={{ "alignItems": 'center' }}
+            name="Intro3"
+            component={Intro3}
             options={{
               headerStyle: {
                 backgroundColor: '#E60509',
