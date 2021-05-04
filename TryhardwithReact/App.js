@@ -17,7 +17,7 @@ class App extends Component {
         <Stack.Navigator initialRouteName="Welcome">
           <Stack.Screen
             style={{ "alignItems": 'center' }}
-            name="Welcome"
+            name="Login"
             component={Login}
             options={{
               headerStyle: {
